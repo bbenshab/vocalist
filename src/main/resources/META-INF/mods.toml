@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="vocalist"
+version="1.0.0"
+displayName="Vocalist"
+authors="Boaz Ben Shabat"
+logoFile="/vocalist_logo.png"
+description="""
+Converse with any creature. LLM-powered NPC dialogue with optional voice
+input and output through Simple Voice Chat. Server-side only.
+"""
+
+[[dependencies.vocalist]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.vocalist]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="SERVER"

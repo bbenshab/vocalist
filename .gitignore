@@ -1,0 +1,7 @@
+build/
+.gradle/
+run/
+logs/
+tts_server/models/
+tts_server/cache/
+*.log
